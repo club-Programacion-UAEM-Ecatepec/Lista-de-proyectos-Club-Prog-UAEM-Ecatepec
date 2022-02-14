@@ -2,6 +2,7 @@ nav {
   background-color: #249205;
   position: -webkit-sticky;
   position: sticky;
+  top: 0;
 }
 
 header {
@@ -23,7 +24,16 @@ header h1 span {
   color: #EABE3F;
 }
 
+main {
+  text-align: center;
+}
+
 footer {
   background-color: #f0f0f0;
+  padding: 1rem 0;
+}
+
+footer p {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

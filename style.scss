@@ -8,7 +8,7 @@ $colorOscuro: #3a3a3a;
 nav{
     background-color: $color1;
     position: sticky;
-
+    top:0;
 
 }
 
@@ -20,6 +20,7 @@ header{
 
     h1{
         max-width: 20rem;
+        
         span{
             color: $color3;
         }
@@ -27,7 +28,16 @@ header{
 }
 
 
+main{
+    text-align: center;
+}
 
 footer{
     background-color: $colorFooter;
+    padding: 1rem 0;
+
+    p{
+        text-align: center;
+    }
+
 }
