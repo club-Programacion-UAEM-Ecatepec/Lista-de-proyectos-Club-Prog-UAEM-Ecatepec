@@ -1,0 +1,33 @@
+$color1: #249205;
+$color2: #9B933B;
+$color3: #EABE3F;
+$colorFooter: #f0f0f0;
+$colorOscuro: #3a3a3a;
+
+
+nav{
+    background-color: $color1;
+    position: sticky;
+
+
+}
+
+header{
+    display: flex;
+    background-color: $color2;
+    color: #fff;
+    justify-content: center;
+
+    h1{
+        max-width: 20rem;
+        span{
+            color: $color3;
+        }
+    }
+}
+
+
+
+footer{
+    background-color: $colorFooter;
+}

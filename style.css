@@ -1,0 +1,29 @@
+nav {
+  background-color: #249205;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #9B933B;
+  color: #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header h1 {
+  max-width: 20rem;
+}
+
+header h1 span {
+  color: #EABE3F;
+}
+
+footer {
+  background-color: #f0f0f0;
+}
+/*# sourceMappingURL=style.css.map */
