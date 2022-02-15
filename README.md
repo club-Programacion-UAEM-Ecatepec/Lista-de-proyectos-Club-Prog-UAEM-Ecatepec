@@ -6,7 +6,7 @@ Aquí podrás ver qué proyectos están realizando los integrantes del club de p
 Al estar comenzando el Club de Programación, Esta es solo una página web en un repositorio de GitHub simple para tener una lista de proyectos, pero se planea tener una aplicación que funcional de esta lista en el futuro.
 
 ### ¿Como registrar un proyecto?
-ToDo: crear el formato para la lista y explicarlo aqui
+ToDo: crear el formato para la lista y explicarlo aquí
 
 ### ¿Como contribuir?
-Generalmente, en la descripción de los proyectos del Club de Prog. deberia haber una seccion de **_Colaboración_** donde el propietario o jefe del proyecto/repositorio menciona si se puede o no contribuir en el proyecto y el como hacerlo, si no esta o especifica que no esta interesado en ayuda pero realmente estas interesado; contacta con él/ella a traves de nuestras comunidades y preguntale lo que requieras, pero no seas demasiado insitente, si no quiere, esta es su derecho.
+Generalmente, en la descripción de los proyectos del Club de Prog. debería haber una sección de **_Colaboración_** donde el propietario o jefe del proyecto/repositorio menciona si se puede o no contribuir en el proyecto y el cómo hacerlo, si no esta o especifica que no está interesado en ayuda, pero realmente estas interesado; contacta con él/ella a través de nuestras comunidades y pregúntale lo que requieras, pero no seas demasiado insistente, si no quiere, esta es su derecho.
