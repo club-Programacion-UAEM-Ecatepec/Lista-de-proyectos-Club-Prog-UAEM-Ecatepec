@@ -15,8 +15,8 @@
         <ul>
             <li><a href="index.html">Lista de proyectos C.P. UAEM Ecatepec</a></li>
             <li><a href="https://sites.google.com/view/clubprog-uaemecatepec/index">P&aacute;gina principal</a></li>
-            <li style="background-color: #9b933b;;"><a href="">Proyectos</a></li>
-            <li><a href="">P. comunitarios</a></li>
+            <li style="background-color: #9b933b;;"><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="proyectos_comu.html">P. comunitarios</a></li>
             <li><a href="">Registrar proyecto</a></li>
         </ul>
     </nav>
@@ -31,12 +31,34 @@
         <section class="buscar">
             <h3>Buscar un proyecto en especifico</h3>
             <input type="text" name="txt_buscar" id="txt_buscar">
-            <button>Buscar</button>
+            <button onclick="clic_boton()">Buscar</button>
         </section>
 
         <section class="lista">
+        <!-- 
+            Proyecto molde, copia el div de abajo y modifica los datos dentro de las etiquetas por los datos de tu proyecto y agregalo hasta el final, no se acepta proyectos que no cumplan este formato.
+            Si no tienes una imangen de 800px*800px para tu proyecto usa la img por defecto
+
             <div class="proyecto">
-                <img src="https://i.imgur.com/juR2xkX.png" title="source: imgur.com" />
+                <img src="https://i.pinimg.com/originals/88/ca/02/88ca02b801ecd8d835b0b531c83f3681.jpg" title="source: imgur.com" />
+                <div>
+                    <h4 class="titulo">
+                        Proyecto ejemplo
+                    </h4>
+                    <p class="descripcion_proyecto">
+                        Descripcion del proyecto, de lo que trata y que pretende hacer, debe tener un enlace al proyecto en Github.
+                    </p>
+                    <div>
+                        <a class="enlace_proyecto" href="http://https://github.com/<nombre_usuario>/<nombre_del_proyecto_en_github>"> Enlace al proyecto</a>
+                        <a class="enlace_propietario" href="http://https://github.com/<nombre_usuario>" target="_blank" rel=""> <span>Creado por: </span> mi nombre</a>
+                    </div>
+                </div>
+            </div>
+
+        -->
+
+            <div class="proyecto">
+                <img src="https://i.pinimg.com/originals/88/ca/02/88ca02b801ecd8d835b0b531c83f3681.jpg" title="source: imgur.com" />
                 <div>
                     <h4 class="titulo">
                         Ordenador de listas de asistencias de Teams
@@ -52,53 +74,24 @@
             </div>
 
             <div class="proyecto">
-                <img src="https://i.imgur.com/6KoNDDft.png" title="source: imgur.com" />
+                <img src="https://i.pinimg.com/originals/88/ca/02/88ca02b801ecd8d835b0b531c83f3681.jpg" title="source: imgur.com" />
                 <div>
                     <h4 class="titulo">
-                        Proyecto ejemplo
+                        Ordenador de listas de asistencias de Teams
                     </h4>
                     <p class="descripcion_proyecto">
-                        Descripcion del proyecto, de lo que trata y que pretende hacer, debe tener un enlace al proyecto en Github.
+                        Quod temporibus sunt neque esse accusamus fugiat dolorem delectus quia, velit, eum eaque consectetur. Cumque sed tenetur officiis illum tempora consequuntur nobis, ut qui, hic at non eligendi sapiente quidem!
+                        Nemo, ullam. Soluta magni quaerat obcaecati fugit, itaque corporis suscipit minima, quis aliquid ipsa natus maiores? Adipisci quisquam sapiente minima illo nesciunt explicabo laudantium suscipit, dolorum laborum, itaque ipsam neque.
                     </p>
                     <div>
-                        <a class="enlace_proyecto" href=""> Enlace al proyecto</a>
-                        <a class="enlace_propietario" href="http://" target="_blank" rel=""> <span>Creado por: </span> Jesus OJ</a>
+                        <a class="enlace_proyecto" href="https://github.com/JoJDev/Ordenador-de-listas-de-asistencias-de-Microsoft-Teams/" target="_blank"> Enlace al proyecto</a>
+                        <a class="enlace_propietario" href="https://github.com/JoJDev" target="_blank" rel=""> <span>Creado por: </span> Jesus OJ</a>
                     </div>
                 </div>
             </div>
 
-            <div class="proyecto">
-                <img src="https://i.imgur.com/6KoNDDft.png" title="source: imgur.com" />
-                <div>
-                    <h4 class="titulo">
-                        Proyecto ejemplo
-                    </h4>
-                    <p class="descripcion_proyecto">
-                        Descripcion del proyecto, de lo que trata y que pretende hacer, debe tener un enlace al proyecto en Github.
-                    </p>
-                    <div>
-                        <a class="enlace_proyecto" href=""> Enlace al proyecto</a>
-                        <a class="enlace_propietario" href="http://" target="_blank" rel=""> <span>Creado por: </span> Jesus OJ</a>
-                    </div>
-                </div>
-            </div>
 
-            <div class="proyecto">
-                <img src="https://i.imgur.com/6KoNDDft.png" title="source: imgur.com" />
-                <div>
-                    <h4 class="titulo">
-                        Proyecto ejemplo
-                    </h4>
-                    <p class="descripcion_proyecto">
-                        Descripcion del proyecto, de lo que trata y que pretende hacer, debe tener un enlace al proyecto en Github.
-                    </p>
-                    <div>
-                        <a class="enlace_proyecto" href=""> Enlace al proyecto</a>
-                        <a class="enlace_propietario" href="http://" target="_blank" rel=""> <span>Creado por: </span> Jesus OJ</a>
-                    </div>
-                </div>
-            </div>
-
+            <!-- este es el final para la lista de proyectos, pon tu proyecto arriba de este comentario-->
         </section>
     </main>
 
@@ -108,5 +101,5 @@
     </footer>
 
 </body>
-
+<script src="js/btn_buscar.js"></script>
 </html>

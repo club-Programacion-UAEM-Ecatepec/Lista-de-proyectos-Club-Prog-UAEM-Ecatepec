@@ -49,11 +49,11 @@ nav {
 header {
   display: flex;
   background-color: $color2;
-  background-image: url("https://i.pinimg.com/564x/89/a1/8f/89a18f4c94ef494b7780e99dade0bbd8.jpg");
+  background-image: url("https://i.pinimg.com/originals/5e/66/66/5e6666349fb3959426b5011748e44b12.jpg");
   background-repeat: no-repeat;
-  background-size: 100vw auto;
-  background-attachment: fixed;
-  background-position: top;
+  background-size: 120%;
+
+  background-position: center;
   color: #fff;
   justify-content: center;
   padding: 6rem 4rem;
@@ -107,6 +107,7 @@ main {
       width: 100px;
       height: 100px;
       margin: 1mm;
+      margin-left: 2mm;
       align-self: center;
     }
 
@@ -126,7 +127,7 @@ main {
 
       div {
         flex-direction: row;
-
+        padding: 2ex 0 1ex;
         a{
             margin-right: 1em;
             text-decoration: none;
