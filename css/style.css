@@ -1,0 +1,166 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #249205;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin: 0;
+}
+
+nav ul li {
+  height: 25px;
+  padding: 1em;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+nav ul li a {
+  text-justify: center;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+  color: #000;
+}
+
+nav ul li:first-child {
+  -webkit-box-flex: 6;
+      -ms-flex-positive: 6;
+          flex-grow: 6;
+  min-width: 22rem;
+}
+
+nav ul li:first-child a {
+  text-align: right;
+  color: #3a3a3a;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #9b933b;
+  background-image: url("https://i.pinimg.com/originals/5e/66/66/5e6666349fb3959426b5011748e44b12.jpg");
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-position: center;
+  color: #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 6rem 4rem;
+}
+
+header h1 span {
+  color: #eabe3f;
+}
+
+main {
+  font-size: 18px;
+}
+
+main section {
+  margin: 3rem 10rem;
+}
+
+main section h3 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 1rem 2rem;
+}
+
+.buscar input {
+  width: 80%;
+  height: 25px;
+}
+
+.buscar button {
+  min-width: 5rem;
+  width: 10%;
+  height: 25px;
+}
+
+.formato div ol {
+  padding-left: 3em;
+  margin: 1em 0;
+}
+
+.lista .proyecto {
+  border: solid #000 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1ex;
+}
+
+.lista .proyecto img {
+  width: 100px;
+  height: 100px;
+  margin: 1mm;
+  margin-left: 2mm;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.lista .proyecto div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1ex;
+}
+
+.lista .proyecto div h4 {
+  margin: 1ex 0;
+}
+
+.lista .proyecto div p {
+  height: 80%;
+}
+
+.lista .proyecto div div {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 2ex 0 1ex;
+}
+
+.lista .proyecto div div a {
+  margin-right: 1em;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.lista .proyecto div div a span {
+  color: #000;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 1rem 0;
+}
+
+footer p {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

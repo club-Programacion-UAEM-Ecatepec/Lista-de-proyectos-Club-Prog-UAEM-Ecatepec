@@ -1,0 +1,153 @@
+$color1: #249205;
+$color2: #9b933b;
+$color3: #eabe3f;
+$colorFooter: #f0f0f0;
+$colorOscuro: #3a3a3a;
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: $color1;
+  position: sticky;
+  top: 0;
+
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    margin: 0;
+
+    li {
+      height: 25px;
+      padding: 1em;
+      align-self: center;
+      a {
+        text-justify: center;
+        text-decoration: none;
+        font-size: large;
+        font-weight: bold;
+        color: #000;
+      }
+    }
+
+    li:first-child {
+      flex-grow: 6;
+      min-width: 22rem;
+      a {
+        text-align: right;
+        color: #3a3a3a;
+      }
+    }
+  }
+}
+
+header {
+  display: flex;
+  background-color: $color2;
+  background-image: url("https://i.pinimg.com/originals/5e/66/66/5e6666349fb3959426b5011748e44b12.jpg");
+  background-repeat: no-repeat;
+  background-size: 120%;
+
+  background-position: center;
+  color: #fff;
+  justify-content: center;
+  padding: 6rem 4rem;
+  h1 {
+    span {
+      color: $color3;
+    }
+  }
+}
+
+main {
+  font-size: 18px;
+
+  section {
+    margin: 3rem 10rem;
+
+    h3 {
+      box-sizing: border-box;
+      margin: 1rem 2rem;
+    }
+  }
+}
+
+.buscar {
+  input {
+    width: 80%;
+    height: 25px;
+  }
+
+  button {
+    min-width: 5rem;
+    width: 10%;
+    height: 25px;
+  }
+}
+
+.formato {
+  div ol {
+    padding-left: 3em;
+    margin: 1em 0;
+  }
+}
+
+.lista {
+  .proyecto {
+    border: solid #000 1px;
+    display: flex;
+    margin-bottom: 1ex;
+
+    img {
+      width: 100px;
+      height: 100px;
+      margin: 1mm;
+      margin-left: 2mm;
+      align-self: center;
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+      padding: 1ex;
+      
+
+      h4 {
+        margin: 1ex 0;
+      }
+
+      p{
+          height: 80%;
+      }
+
+      div {
+        flex-direction: row;
+        padding: 2ex 0 1ex;
+        a{
+            margin-right: 1em;
+            text-decoration: none;
+            font-size: 1rem;
+
+            span{
+                color: #000;
+                
+            }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background-color: $colorFooter;
+  padding: 1rem 0;
+
+  p {
+    text-align: center;
+  }
+}
